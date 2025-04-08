@@ -1,0 +1,111 @@
+.addButtonCont{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.addButtonCont button{
+    height: 70px;
+    width: 200px;
+}
+
+.section{
+    height: 100vh;
+    width: 100vw;
+    /* border:2px solid black; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.tableContainer{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table{
+    width: 80%;
+    height: auto;
+}
+thead{
+    width:100%;
+    height: 70px;
+}
+.tbody{
+    width: 100%;
+    height: auto;
+}
+.th{
+    width: 200px;
+    height: 70px;
+
+}
+.td{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+}
+
+.Container{
+    background-color: white;
+    padding: 32px 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 8px 8px 24px 0px rgba(66,68, 90, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left:500px;
+  }
+  .Container > h1 {
+    margin-bottom: 20px;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px
+  }
+  
+  .input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .input::placeholder{
+    font-size: 12px;
+    font-style: inherit;
+  }
+  
+  button{
+    background-color: purple;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .btn{
+    width: 47%;
+    background-color: purple;
+   font-size: 17px;
+   margin: 3px;
+  }
